@@ -95,7 +95,7 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: "https://chirpy-img.netlify.app"
+#cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/assets/img/1658411807169.jpg"
@@ -151,6 +151,8 @@ paginate: 10
 
 # The base URL of your site
 baseurl: "/cg_new"
+#baseurl: ""
+
 
 # ------------ The following options are not recommended to be modified ------------------
 
