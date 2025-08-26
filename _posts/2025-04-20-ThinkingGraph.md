@@ -1,7 +1,7 @@
 ---
 title: "The Thinking Graph: How a Shelf of Notebooks Turned Into a Living Web of Ideas"
 date: 2025-04-20
-author: cgallagher
+author: 
 tags:
   - devlog
 type: 

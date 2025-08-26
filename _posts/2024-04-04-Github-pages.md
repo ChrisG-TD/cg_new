@@ -1,6 +1,6 @@
 ---
 title: GitHub Pages to Consolidate My Ideas
-author: cgallagher
+author: 
 date: 2024-04-04
 categories: [Blogging]
 tags: []

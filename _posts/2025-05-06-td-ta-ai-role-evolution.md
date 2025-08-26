@@ -2,7 +2,8 @@
 layout: 
 title: The Shape-Shifting Role of the TD, the TA, and Now the AI Developer
 date: 2025-05-06
-author: cgallagher
+author: 
+categories: [TDLife]
 description: A reflection on the evolving role of Technical Directors and Technical Artists in the age of AI  and how system thinking continues to define creative innovation.
 tags: [devlog, AI, TDlife, animationPipelines, aiDevelopment]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Steal This Prompt (Then Make It Yours)
 date: 2025-04-30
-author: cgallagher
+author: 
 tags:
   - promptEngineering
   - AItools

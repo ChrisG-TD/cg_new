@@ -1,0 +1,31 @@
+/* Callouts */
+.callout {
+  margin: 1rem 0;
+  padding: 0.875rem 1rem;
+  border-left: 4px solid #cbd5e1;
+  background: #f8fafc;
+  border-radius: 6px;
+}
+.callout p { margin: 0; }
+
+/* Variants */
+.callout.info    { border-color: #3b82f6; background: #eff6ff; }
+.callout.warning { border-color: #f59e0b; background: #fffbeb; }
+.callout.success { border-color: #10b981; background: #ecfdf5; }
+.callout.danger  { border-color: #ef4444; background: #fef2f2; }
+
+/* Tables look tighter on some themes—add a bit of air */
+.markdown-body table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+.markdown-body table th,
+.markdown-body table td {
+  padding: .6rem .8rem;
+  border: 1px solid #e5e7eb;
+}
+.markdown-body table thead th {
+  background: #f3f4f6;
+  font-weight: 600;
+}

@@ -2,7 +2,8 @@
 layout: post
 title: Mailbox - When Email Felt Like Magic
 date: 2023-02-14
-author: cgallagher
+author: 
+categories: [Blogging]
 tags:
   - email
   - creativeWorkflow
