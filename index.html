@@ -1,4 +1,44 @@
 ---
-layout: home
+layout: page
+#title: Chris Gallagher
+permalink: /
 # Index page
 ---
+
+
+<section class="hero">
+  <div class="container">
+    <h1>Pipeline builder. Story creator. TD at heart.</h1>
+    <p>I design and code the tools that artists use every day. I shape workflows around story and performance. I mentor teams so the next version of the work is always better.</p>
+    <div class="cta-row">
+      <a class="btn" href="{{ '/#projects' | relative_url }}">View work</a>
+      <a class="btn ghost" href="{{ 'categories/devlog/' | relative_url }}">Read the dev log</a>
+      <a class="btn" href="mailto:me@chrisgallagher.com">Contact me</a>
+    </div>
+    <p class="cred">Disney, Weta, Imageworks, EA, Digital Domain, SCAD</p>
+  </div>
+</section>
+
+
+<section id="writing">
+  <h2>Latest writing</h2>
+  <ul class="post-list">
+    {%- assign posts = site.posts | where_exp: "p", "p.tags contains 'devlog' or p.tags contains 'lessons'" -%}
+    {%- for post in posts limit:3 -%}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {%- if post.description -%}
+        <p>{{ post.description }}</p>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+  <p><a class="btn ghost" href="{{ '/devlog/' | relative_url }}">Browse the archive</a></p>
+</section>
+
+<section class="cta">
+  <h2>Let’s build something that artists love</h2>
+  <p>Advisory, hands-on pipeline work, short workshops, long collaborations.</p>
+  <a class="btn" href="mailto:hello@yourdomain.com">Get in touch</a>
+</section>

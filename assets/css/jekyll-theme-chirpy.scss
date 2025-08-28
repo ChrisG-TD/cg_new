@@ -1,15 +1,27 @@
 ---
 ---
 
-/* prettier-ignore */
-@use 'main
-{%- if jekyll.environment == 'production' -%}
-  .bundle
-{%- endif -%}
-';
+/* Load Chirpy's Sass entry. Use the bundle in production to speed things up. */
+@use "{% if jekyll.environment == 'production' %}main.bundle{% else %}main{% endif %}";
 
 /* append your custom style below */
 .shimmer::before {
   background: none;
 }
 
+/* Landing page tweaks */
+.hero { padding: 3rem 1rem; text-align: center; }
+.hero .cta-row { display: inline-flex; gap: .75rem; flex-wrap: wrap; margin: 1rem 0; }
+.hero .btn { padding: .6rem 1rem; border-radius: .5rem; border: 1px solid var(--btn-border-color, #ccc); }
+.hero .btn.ghost { background: transparent; }
+.cred { opacity: .7; margin-top: .5rem; }
+
+.grid .cards, #projects .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin: 1rem 0 2rem; padding: 0; list-style: none; }
+.card { border: 1px solid var(--border-color, #e5e7eb); border-radius: .75rem; padding: 1rem; background: var(--card-bg, #fff); }
+.card img { width: 100%; height: auto; border-radius: .5rem; margin-bottom: .5rem; }
+
+.post-list { list-style: none; padding: 0; margin: 1rem 0 2rem; }
+.post-list li { margin-bottom: 1rem; }
+.post-list .meta { font-size: .9rem; opacity: .7; margin-left: .5rem; }
+
+section.cta { text-align: center; padding: 2rem 1rem; border-top: 1px solid var(--border-color, #e5e7eb); }

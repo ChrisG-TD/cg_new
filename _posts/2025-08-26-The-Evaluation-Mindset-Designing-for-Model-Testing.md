@@ -6,10 +6,10 @@ author:
 pin: false
 categories: [Prompt Complexity]
 description: Why prompt evaluation is as critical as generation. This section introduces levels of difficulty, failure design, YAML contracts, reproducibility scaffolds, and evaluation goals for structured LLM testing.
-tags: [promptEngineering, AItools, devlog, testing, promptEvaluation, structuredPrompts]
+tags: [devlog, promptEngineering, AItools, devlog, testing, promptEvaluation, structuredPrompts]
 ---
 
-# Section 3: The Evaluation Mindset, Designing for Model Testing
+# Post 3: The Evaluation Mindset, Designing for Model Testing
 
 Creating prompts is only half the battle. The real work starts when you use those prompts to **test large language models consistently** across versions, architectures, domains, and production scenarios.
 

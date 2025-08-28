@@ -104,7 +104,7 @@ theme_mode: # [light | dark]
 #cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/1658411807169.jpg"
+avatar: "/assets/img/gallagher_headshot.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -153,7 +153,7 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+#paginate: 10
 
 # The base URL of your site
 baseurl: "/cg_new"
@@ -178,6 +178,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  projects:
+    output: true
+    permalink: /projects/:name/
 
 defaults:
   - scope:
@@ -200,6 +203,9 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope: { path: "", type: projects }
+    values:
+      layout: page
 
 sass:
   style: compressed
@@ -224,11 +230,14 @@ exclude:
   - "*.config.js"
   - "package*.json"
 
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
+#jekyll-archives:
+#  enabled: [categories, tags]
+#  layouts:
+#    category: category
+#    tag: tag
+#  permalinks:
+#    tag: /tags/:name/
+#    category: /categories/:name/
+
+
+
