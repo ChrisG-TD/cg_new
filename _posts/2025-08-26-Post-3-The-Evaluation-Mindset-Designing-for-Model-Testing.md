@@ -6,7 +6,7 @@ author:
 pin: false
 categories: [prompt complexity]
 description: Why prompt evaluation is as critical as generation. This section introduces levels of difficulty, failure design, YAML contracts, reproducibility scaffolds, and evaluation goals for structured LLM testing.
-tags: [devlog, prompt_engineering, ai_tools, devlog, testing, prompt_evaluation, structured_prompts]
+tags: [devlog, prompt_engineering, ai_tools, testing, prompt_evaluation, structured_prompts]
 ---
 <div style="text-align:center;">
   <video

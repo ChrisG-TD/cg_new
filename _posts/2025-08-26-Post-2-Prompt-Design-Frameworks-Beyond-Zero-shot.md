@@ -6,7 +6,7 @@ author:
 pin: false
 categories: [prompt complexity]
 description: A structured breakdown of prompt types—zero-shot, few-shot, system, role, contextual, step-back, chain-of-thought, self-consistency, tree-of-thought, ReAct, and meta—each defined with metadata, failure modes, and evaluation logic.
-tags: [devlog, prompt_engineering, ai_tools, devlog, testing, structured_prompts, prompt_evaluation, llm_testing]
+tags: [devlog, prompt_engineering, ai_tools, testing, structured_prompts, prompt_evaluation, llm_testing]
 ---
 
 <div style="text-align:center;">
