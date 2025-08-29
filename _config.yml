@@ -156,8 +156,8 @@ pwa:
 #paginate: 10
 
 # The base URL of your site
-baseurl: "/cg_new"
-#baseurl: ""
+#baseurl: "/cg_new"
+baseurl: ""
 
 
 # ------------ The following options are not recommended to be modified ------------------
