@@ -4,8 +4,8 @@
   icon: "fab fa-github"
   url: 'https://github.com/ChrisG-TD/'  # Fill with your GitHub homepage
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+#- type: twitter
+#  icon: "fa-brands fa-x-twitter"
 
 - type: email
   icon: "fas fa-envelope"

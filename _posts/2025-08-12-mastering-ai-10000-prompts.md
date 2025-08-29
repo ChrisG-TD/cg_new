@@ -4,9 +4,9 @@ title: Mastering AI, 10,000 Prompts Reveal Universal Strategies for Success
 date: 2025-08-12
 author:
 pin: false
-categories: [Prompt Complexity]
+categories: [prompt complexity]
 description: Over six months and 10,000 prompts tested across GPT-4, GROK, Claude, Gemini, DeepSeek, Mistral, and LLaMA revealed universal strategies for smarter prompting, model adaptation, and AI-assisted productivity.
-tags: [devlog, AIResearch, promptEngineering, GenerativeAI, TechInnovation, Productivity, AIWorkflow, LLMsystems]
+tags: [devlog, ai_research, prompt_engineering, denerative_ai, tech_innovation, productivity, ai_workflow, llm_systems]
 ---
 
 ---

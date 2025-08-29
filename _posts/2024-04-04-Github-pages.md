@@ -2,8 +2,8 @@
 title: GitHub Pages to Consolidate My Ideas
 author: 
 date: 2024-04-04
-categories: [Blogging]
-tags: []
+categories: [blogging]
+tags: [devlog]
 ---
 
 # Why I Chose GitHub Pages to Consolidate My Ideas

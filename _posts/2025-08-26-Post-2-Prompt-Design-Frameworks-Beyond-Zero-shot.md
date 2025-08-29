@@ -4,23 +4,29 @@ title: Prompt Design Frameworks, Beyond Zero-shot
 date: 2025-08-26
 author: 
 pin: false
-categories: [Prompt Complexity]
+categories: [prompt complexity]
 description: A structured breakdown of prompt types—zero-shot, few-shot, system, role, contextual, step-back, chain-of-thought, self-consistency, tree-of-thought, ReAct, and meta—each defined with metadata, failure modes, and evaluation logic.
-tags: [devlog, promptEngineering, AItools, devlog, testing, structuredPrompts, promptEvaluation, LLMtesting]
+tags: [devlog, prompt_engineering, ai_tools, devlog, testing, structured_prompts, prompt_evaluation, llm_testing]
 ---
-<video
-  controls
-  preload="metadata"
-  style="max-width:100%;height:auto;"
-  poster="{{ '/assets/img/Post-2-Prompt-Design-Frameworks-Beyond-Zero-shot.png' | relative_url }}"
->
-  <source src="{{ '/assets/video/Post-2-Prompt-Design-Frameworks-Beyond-Zero-shot.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-  <a href="{{ '/assets/video/Post-2-Prompt-Design-Frameworks-Beyond-Zero-shot.mp4' | relative_url }}">Download the video</a>.
-</video>
 
+<div style="text-align:center;">
+  <video
+    controls
+    preload="metadata"
+    style="max-width:100%;height:auto;"
+    poster="{{ '/assets/img/Post-2-Prompt-Design-Frameworks-Beyond-Zero-shot.png' | relative_url }}"
+  >
+    <source src="{{ '/assets/video/Post-2-Prompt-Design-Frameworks-Beyond-Zero-shot.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+    <a href="{{ '/assets/video/Post-2-Prompt-Design-Frameworks-Beyond-Zero-shot.mp4' | relative_url }}">Download the video</a>.
+  </video>
 
-*AI helped shape the words here, but the ideas, experiments, and code are 100% human-made. This is the start of a series on prompt engineering—turning intuition into engineering.*
+  <p style="color:#888; font-size:0.9em; margin-top:0.5em;">
+    Video created by Sora
+  </p>
+</div>
+
+*AI helped shape the words here, but the ideas, experiments, and code are 100% human-made. This is part 2 of a series on prompt engineering—turning intuition into engineering.*
 
 
 Prompt engineering isn’t just about writing one clever instruction. The early chaos I described came from treating every prompt as if it lived in the same category. They don’t. A zero-shot sanity check is not a ReAct pipeline. A ToT exploration is not a meta-prompt that spawns its own instructions. Without categories and behaviors, evaluation collapses.

@@ -2,8 +2,8 @@
 title: Confessions of a Sublime Fan - Why Im Finally Giving VSCode a Real Shot
 author: 
 date: 2024-11-11
-categories: [devlog, TDlife, animationPipelines, IDE]
-tags: []
+categories: []
+tags: [devlog, td_life, animation_pipelines, ide]
 ---
 
 # Confessions of a Sublime Fan: Why I’m Finally Giving VSCode a Real Shot

@@ -3,9 +3,9 @@ layout:
 title: "The Role That Doesn’t Exist (But Maybe It Does)"
 date: 2025-05-05
 author: 
-categories: [TDLife]
+categories: [td_Life]
 description: Exploring the missing middle ground between prompt engineering and AI architecture through the lens of a Technical Director.
-tags: [aiTD, promptEngineering, LLMsystems, devlog, creativeWorkflow]
+tags: [ai_td, prompt_engineering, llm_systems, devlog, creative_workflow]
 ---
 
 ## 🧠 The Role That Doesn’t Exist (But Maybe It Does)

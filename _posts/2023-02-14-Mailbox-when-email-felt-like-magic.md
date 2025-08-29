@@ -3,11 +3,11 @@ layout: post
 title: Mailbox - When Email Felt Like Magic
 date: 2023-02-14
 author: 
-categories: [Blogging]
+categories: [blogging]
 tags:
   - email
-  - creativeWorkflow
-  - powerTools
+  - creative_workflow
+  - power_tools
 description:
 ---
 

@@ -4,10 +4,29 @@ title: The Evaluation Mindset, Designing for Model Testing
 date: 2025-08-26
 author: 
 pin: false
-categories: [Prompt Complexity]
+categories: [prompt complexity]
 description: Why prompt evaluation is as critical as generation. This section introduces levels of difficulty, failure design, YAML contracts, reproducibility scaffolds, and evaluation goals for structured LLM testing.
-tags: [devlog, promptEngineering, AItools, devlog, testing, promptEvaluation, structuredPrompts]
+tags: [devlog, prompt_engineering, ai_tools, devlog, testing, prompt_evaluation, structured_prompts]
 ---
+<div style="text-align:center;">
+  <video
+    controls
+    preload="metadata"
+    style="max-width:100%;height:auto;"
+    poster="{{ '/assets/img/Post-3-The-Evaluation-Mindset.png' | relative_url }}"
+  >
+    <source src="{{ '/assets/video/Post-3-The-Evaluation-Mindset.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+    <a href="{{ '/assets/video/Post-3-The-Evaluation-Mindset.mp4' | relative_url }}">Download the video</a>.
+  </video>
+
+  <p style="color:#888; font-size:0.9em; margin-top:0.5em;">
+    Created with my Doodle into Midjourney
+  </p>
+</div>
+
+*AI helped shape the words here, but the ideas, experiments, and code are 100% human-made. This is part 3 of a series on prompt engineering—turning intuition into engineering.*
+
 
 # Post 3: The Evaluation Mindset, Designing for Model Testing
 
@@ -60,7 +79,7 @@ Each example is tagged with `complexityLevel`, `estimatedTokens`, and `wordCount
 
 Not every prompt should succeed. Some are designed to be too hard, too ambiguous, or too long for the target context. These stress tests surface brittleness early.
 
-**Failure Modes We Observe**
+**Failure Modes I Observe**
 
 | Failure type | What it looks like | What it reveals |
 |---|---|---|
@@ -133,9 +152,9 @@ Each example includes:
 
 ## Run Parameters and Controls
 
-Determinism and fairness require explicit run controls. We pin defaults, then vary them intentionally.
+Determinism and fairness require explicit run controls. I pin defaults, then vary them intentionally.
 
-| Parameter | Default | When we vary it | Why it matters |
+| Parameter | Default | When I vary it | Why it matters |
 |---|---|---|---|
 | `temperature` | 0.2 | Creativity or exploration tests | Affects diversity and stability |
 | `top_p` | 1.0 | Sampling studies | Changes tail behavior of token choice |
@@ -175,11 +194,11 @@ Prompts are tagged so that test runs can be **goal-driven** rather than monolith
 
 ---
 
-## Anti-Patterns We Avoid
+## Anti-Patterns I Avoid
 
-We deliberately avoid practices that inflate scores without improving reliability.
+I deliberately avoid practices that inflate scores without improving reliability.
 
-| Anti-pattern | Why we avoid it | What we do instead |
+| Anti-pattern | Why I avoid it | What I do instead |
 |---|---|---|
 | Synthetic cloning of templates | Looks like coverage without new behavior | Write new logic per level and type |
 | Blind token padding | Longer prompts that do nothing better | Short, targeted scaffolds with measurable effect |
@@ -190,6 +209,6 @@ We deliberately avoid practices that inflate scores without improving reliabilit
 
 ## What Comes Next
 
-With the evaluation mindset and contract in place, the next section turns technical. We move from prompt-level design to **token-aware evaluation**: measuring token cost, tokenizer alignment across model families, and performance at boundary lengths.  
+With the evaluation mindset and contract in place, the next section turns technical. I move from prompt-level design to **token-aware evaluation**: measuring token cost, tokenizer alignment across model families, and performance at boundary lengths.  
 
 Because even the strongest prompt fails if it silently breaks at 2,049 tokens.

@@ -31,11 +31,11 @@ description: >- # used by seo meta and the atom feed
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://chrisg-td.github.io"
 
-github:
-  ChrisG-TD: github_username # change to your GitHub username
+github: 
+  github_username: ChrisG-TD  # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+#twitter:
+#  username: twitter_username # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -43,9 +43,10 @@ social:
   name: Chris Gallagher
   email: me@chrisgallagher.com # change to your email address
   links:
-    # The first element serves as the copyright owner's link
-   # - https://twitter.com/username # change to your Twitter homepage
     - https://github.com/chrisg-td # change to your GitHub homepage
+    # The first element serves as the copyright owner's link
+    # - https://twitter.com/username # change to your Twitter homepage
+    
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -230,14 +231,23 @@ exclude:
   - "*.config.js"
   - "package*.json"
 
-#jekyll-archives:
-#  enabled: [categories, tags]
-#  layouts:
-#    category: category
-#    tag: tag
-#  permalinks:
-#    tag: /tags/:name/
-#    category: /categories/:name/
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - tags
+    - categories
+  layouts:
+    tag: tag
+    category: category
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
 
 
 

@@ -4,9 +4,9 @@ title: Follow-Up Building the Multi-Model Prompt Evaluation Framework
 date: 2025-08-19
 author:
 pin: false
-categories: [Prompt Complexity]
+categories: [prompt complexity]
 description: A framework to turn fragile, one-off prompt wins into scalable, auditable systems.
-tags: [devlog, AIResearch, promptEngineering, GenerativeAI, TechInnovation, Productivity, AIWorkflow, LLMsystems]
+tags: [devlog, ai_research, prompt_engineering, generative_ai, tech_innovation, productivity, ai_workflow, llm_systems]
 ---
 <div style="text-align:center;">
   <video
@@ -24,7 +24,8 @@ tags: [devlog, AIResearch, promptEngineering, GenerativeAI, TechInnovation, Prod
     Video created by Sora
   </p>
 </div>
-*AI helped shape the words here, but the ideas, experiments, and code are 100% human-made. This is the start of a series on prompt engineering—turning intuition into engineering.*
+
+*AI helped shape the words here, but the ideas, experiments, and code are 100% human-made. This is part 1 of a series on prompt engineering—turning intuition into engineering.*
 
 ***A Note on Format:** While this information is dense, I've worked out a new formatting approach for this post to break down the overall idea into the easiest way to absorb it. I'm also limited by the formatting options within LinkedIn's posting system.*
 

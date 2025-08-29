@@ -4,7 +4,7 @@ title: Tokenizers Matter More Than You Think
 date: 2025-05-17
 author: 
 description: 
-tags: [devlog, AI, TDlife, animationPipelines, aiDevelopment]
+tags: [devlog, ai, td_life, animation_pipelines, ai_development]
 ---
 originally posted on linkedin
 

@@ -4,9 +4,9 @@ title: Steal This Prompt (Then Make It Yours)
 date: 2025-04-30
 author: 
 tags:
-  - promptEngineering
-  - AItools
-  - creativeWorkflow
+  - prompt_engineering
+  - ai_tools
+  - creative_workflow
 description: A reusable AI prompt template to help you write like yourself, with clarity, confidence, and personality.
 ---
 
