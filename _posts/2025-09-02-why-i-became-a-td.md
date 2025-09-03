@@ -37,7 +37,7 @@ When I went on to pursue an MFA, it wasn’t about learning to be an artist from
 ---
 ## Leadership and Mentorship
 
-Later in my career, I had the privilege of running a world-class university animation program and founding an animation studio that became the backbone for the school’s creative output. As department head, I was responsible for making sure every part of the creative process was covered, concept art, scriptwriting, storyboarding, and the craft of putting a soul into 2D and 3D characters.
+Later in my career, I had the privilege of running a world-class university animation program and founding an animation studio that became the backbone for the school’s animation creative output. As department head, I was responsible for making sure every part of the creative process was covered, concept art, scriptwriting, storyboarding, and the craft of putting a soul into 2D and 3D characters.
 
 While my faculty team handled those areas, my own teaching focused on Unreal filmmaking, production management, professional development, and the craft of animated filmmaking. I guided students not only in the technical and creative aspects of the medium, but also in how to think like professionals, balancing vision with process, artistry with pipeline.
 
