@@ -32,3 +32,5 @@ I’m not giving up Sublime anytime soon. It’s still my lightweight, trusted f
 In a way, it feels like letting go of an old habit and picking up a new one that might actually support me better as projects grow. It’s a bit like moving from a quiet cabin to a downtown apartment, less peaceful, but closer to the action, with way more amenities when you need them.  
 
 Sublime will always have my heart. But VSCode is beginning to have my respect. And maybe, that’s the kind of growth I didn’t know I was ready for.
+
+> *PS: While I do enjoy stand-alone IDEs, there’s something simple and easy about using the Maya script editor, which is why I’m tinkering with making my own. It’s a long-term project, but one I’m curious to see evolve.*
