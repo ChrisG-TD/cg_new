@@ -8,7 +8,6 @@ type:
 image: 
 src:
 ---
-# The Thinking Graph: How a Shelf of Notebooks Turned Into a Living Web of Ideas
 
 This was originally ideas created a few years ago and I refactored for my new blog/site
 
@@ -22,8 +21,9 @@ A single notebook could hold great ideas, but they stayed trapped in their own p
 
 ## II. The First Migration: Lists and Tasks and more
 
-I drifted to digital. First to-do list apps like **Remember the Milk** and **Todoist**. Then the beautifully designed **Things** app, which still holds a place on my iPhone's home screen.
+I tried **Remember the Milk**, **Todoist** then **Things** genuinely beautiful design, but at some point you realize it's asking you to admire the tool instead of just use it.
 
+Back to **Todoist** because it just worked. When I say frictionless, I mean it was *there* everywhere I needed it to be, never hard to use, just part of the workflow. That's when I realized: the best tool is one you forget you're using.
 They helped organize my life, but not my thoughts.
 
 These tools were made for tasks, not thinking. You could check something off, but you couldn’t *grow* it. 
