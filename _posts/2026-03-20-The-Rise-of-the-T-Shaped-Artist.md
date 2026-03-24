@@ -1,11 +1,11 @@
 ---
 layout:
 title: "The Rise of the T-Shaped Artist"
-date: 2026-03-20
+date: 2026-03-20 09:00:00 -0500
 author:
 description: "Pure specialists are struggling. Pure generalists are competing with $20 tools. The answer is the T-shaped artist, deep craft plus pipeline understanding, and it's what the next five years will reward."
 image: /assets/img/t-shaped-artist.png
-tags: [animation, ai_advocacy, career_growth, td_life, artist_empowerment, creative_technology]
+tags: [animation, ai_advocacy, career_growth, td_life, artist_empowerment, creative_technology, devlog]
 ---
 
 # The Rise of the T-Shaped Artist
