@@ -26,8 +26,14 @@ Often it's both. A well-designed system needs people who trust it, and a willing
 
 **Either way, the throughline is friction, and most of it is invisible.** It's the file an animator has to hunt for, the handoff that drops a detail, the report someone rebuilds by hand every month. People stop noticing it and work around it.
 
+I map how the work gets done, then design the architecture that takes the friction out:
+- **Artists** stay in the shot instead of fighting the pipeline.
+- **Technologists** build on a system that's documented and repeatable.
+- **Students** learn how a studio runs by working inside one.
+- **Customer success teams** see what needs attention today without digging through several systems.
+
 When it works, nobody notices the tool. They just get to focus on the work.
 ---
 
 {:.highlight}
-*Currently exploring how AI can enhance creative workflows without replacing the human element that makes stories truly resonate.*
+*The experimenting is behind me. The AI enablement and architecture work I do today is in real use by real teams, and I keep refining it with every project.*
