@@ -33,6 +33,7 @@ I map how the work gets done, then design the architecture that takes the fricti
 - **Customer success teams** see what needs attention today without digging through several systems.
 
 When it works, nobody notices the tool. They just get to focus on the work.
+
 ---
 
 {:.highlight}
